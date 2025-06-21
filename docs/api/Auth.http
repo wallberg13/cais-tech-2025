@@ -1,0 +1,12 @@
+@host = http://localhost:5000
+
+### Create User
+
+POST {{host}}/api/auth
+Content-Type: application/json
+
+{
+  "login": "aza@aladas.com",
+  "password": "Caralho de Duas Azas"
+}
+

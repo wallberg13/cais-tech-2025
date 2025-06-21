@@ -1,0 +1,28 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "include": ["./src"],
+  "exclude": ["./node_modules", "./build", "./dist"],
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": "./src" /* Specify the base directory to resolve non-relative module names. */,
+    "paths": {
+      "@interfaces/*": ["interfaces/*"],
+      "@constants/*": ["constants/*"],
+      "@helpers/*": ["helpers/*"],
+      "@modules/*": ["modules/*"],
+      "@db/*": ["services/db/*"],
+      "@errors/*": ["shared/errors/*"],
+      "@providers/*": ["providers/*"],
+      "@middlewares/*": ["middlewares/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "strictPropertyInitialization": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

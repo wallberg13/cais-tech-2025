@@ -1,0 +1,39 @@
+@host = http://localhost:5000
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDYxMTkxNjYsImV4cCI6MTc0NjIwNTU2Niwic3ViIjoie1wiaWRcIjoxLFwidXNlcl9sZXZlbFwiOlwiU1VQRVJBRE1JTlwiLFwicHJvdGVjdGVkX3VzZXJcIjp0cnVlfSJ9.AMhEa5wLsNxF3JLTao_5GO4kGTEf8h1cW-xPY1QEvno
+
+### Create User
+
+POST {{host}}/api/settings/user
+Content-Type: application/json
+
+[
+  {
+    "name": "Sample User",
+    "login": "Meia Mole e Meia Dura2",
+    "password": "CaralhoDeAza!!",
+    "user_level": "SUPERADMIN"
+  }
+]
+
+### Get User
+GET {{host}}/api/settings/user
+Authorization: Bearer {{token}}
+
+
+### Update User
+PUT {{host}}/api/settings/user/2
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Caralho de Duas Azas2",
+  "login": "aza@aladas.com3",
+  "user_level": "SUPERADMIN",
+  "password": "tecoteco1234"
+}
+
+### Delete User
+DELETE {{host}}/api/settings/user/2
+Authorization: Bearer {{token}}
+
+

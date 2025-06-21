@@ -1,0 +1,33 @@
+=> Tabelas
+
+- Usuário
+  => O superadmin > Cria Entidade
+  => O superadmin > Cria os Perfis
+  => O superadmin > Cria Usuários e atribui a Entidade
+
+- Entidade (É o cliente do sistema)
+  - Unidade
+  - Sub-Unidade
+  - Setor
+
+  => Na criação do produto, ele já verifica se deseja-se criar uma nova unidade ou não.
+
+## Tabelas do Banco de Dados (Basicamente, Crud de Tudo), Preciso de um Gerador de CRUD.
+- Produto (Nome do Bem, como um Carro, ou Moto.)
+- Unidades
+- Sub-Unidades
+- Setores
+- Códigos Contabeis
+- Fornecedores
+- Tipos de Aquisição
+- Tipos de Bens (Móveis ou Imóveis)
+- Patrimonio
+- Fotos do Bem
+- Usuários
+- Perfis
+- Usuários / Entidade
+- Logs de Atividades.
+- Logs de Acesso
+
+
+=> Com Gerador de Crud, dar bom.

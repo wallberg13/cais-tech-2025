@@ -1,0 +1,31 @@
+@host = http://localhost:5000
+
+### Create AccountingCode
+
+POST {{host}}/api/settings/accounting-code
+Content-Type: application/json
+
+{
+  "name": "Sample AccountingCode"
+}
+
+### Get AccountingCode
+
+GET {{host}}/api/settings/accounting-code/:id
+
+### Update AccountingCode
+
+PUT {{host}}/api/settings/accounting-code/:id
+Content-Type: application/json
+
+{
+  "name": "Updated AccountingCode"
+}
+
+### Delete AccountingCode
+
+DELETE {{host}}/api/settings/accounting-code/:id
+
+### Index AccountingCodes
+
+GET {{host}}/api/settings/accounting-code

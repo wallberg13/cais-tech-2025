@@ -1,0 +1,13 @@
+services:
+  postgres:
+    container_name: "db_patrimony_manager"
+    restart: "always"
+    image: "postgres:latest"
+    ports:
+      - "55532:5432"
+    volumes:
+      - "./container:/var/lib/postgresql/data"
+    environment:
+      - "POSTGRES_DB=${POSTGRESQL_DB_DATABASE}"
+      - "POSTGRES_USER=${POSTGRESQL_DB_USERNAME}"
+      - "POSTGRES_PASSWORD=${POSTGRESQL_DB_PASSWORD}"
