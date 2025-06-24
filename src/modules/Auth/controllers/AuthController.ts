@@ -22,7 +22,7 @@ class UserController {
 
     const service = new GetAuthUserService(new UserRepository());
     const result = await service.execute(id);
-
+//tech 2025
     res.json(result);
   }
 }
