@@ -4,6 +4,9 @@ import { UserRepository } from "@db/repositories/UserRepository";
 import { CreateAuthService } from "../services/CreateAuthService";
 import { GetAuthUserService } from "../services/GetAuthUserService";
 // Loucuras de Amor
+// Amores Amados
+
+//vala nossa senhora
 class UserController {
   async create(req: Request, res: Response) {
     const service = new CreateAuthService(new UserRepository());
