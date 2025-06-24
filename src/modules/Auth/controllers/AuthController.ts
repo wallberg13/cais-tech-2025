@@ -4,7 +4,11 @@ import { UserRepository } from "@db/repositories/UserRepository";
 import { CreateAuthService } from "../services/CreateAuthService";
 import { GetAuthUserService } from "../services/GetAuthUserService";
 
+
+// curso de git no CAIS TECH
+
 // Comentário do curso Git.
+
 
 class UserController {
   async create(req: Request, res: Response) {
@@ -27,3 +31,7 @@ class UserController {
 }
 
 export default new UserController();
+
+
+
+// Alteração no código
