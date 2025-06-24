@@ -12,7 +12,7 @@ export class CreateAuthService {
 
   async execute(login: string, password: string) {
     const method = "CreateAuthService.execute";
-    const ERROR_MESSAGE = "Usuário não existe ou possui credencial errada!";
+    const ERROR_MESSAGE = "Usuário não existe, na base de dados!";
     const UNAUTH_ERROR = new HTTPError(ERROR_MESSAGE, HttpCode.UNAUTHORIZED);
 
     try {
