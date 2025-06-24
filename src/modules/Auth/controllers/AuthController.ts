@@ -26,5 +26,6 @@ class UserController {
     res.json(result);
   }
 }
-
+//L
 export default new UserController();
+//ok
