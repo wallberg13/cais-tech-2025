@@ -12,9 +12,9 @@ import { isac } from "../bm";
 class UserController {
   async create(req: Request, res: Response) {
     // const service = new CreateAuthService(new UserRepository());
-    // const { login, password } = req.body;
+    // const { login, password } = req.body;adadas
 
-    // const result = await service.execute(login, password);
+    // const result = await service.execute(login, password);adadasd
 
     res.json({ joinha: "true" });
   }
