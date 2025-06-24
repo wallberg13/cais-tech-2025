@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+//Maria Eduarda
 
 import { UserRepository } from "@db/repositories/UserRepository";
 import { CreateAuthService } from "../services/CreateAuthService";
@@ -21,9 +22,10 @@ class UserController {
 
     const service = new GetAuthUserService(new UserRepository());
     const result = await service.execute(id);
-
+//tech 2025
     res.json(result);
   }
 }
-
+//L
 export default new UserController();
+//ok
