@@ -5,7 +5,7 @@ export const CREATE_CLIENT_NOT_CONNETED_CLIENT: string =
   "create_client_not_connected_client";
 
 // General errors
-export const ERROR_TO_CLIENT: string = "error_database";
+export const ERROR_TO_CLIENT: string = "error_database - teste 02";
 export const UNKNOWN_ERROR: string = "error_unknown";
 
 const messages: { [key: string | number]: { [key: string | number]: string } } =
