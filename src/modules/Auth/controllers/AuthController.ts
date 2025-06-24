@@ -12,7 +12,7 @@ class UserController {
     // const { login, password } = req.body;
 
     // const result = await service.execute(login, password);
-
+Informática
     res.json({ joinha: "true" });
   }
 Caistech 2025
