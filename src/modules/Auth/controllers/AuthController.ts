@@ -7,7 +7,6 @@ import { GetAuthUserService } from "../services/GetAuthUserService";
 // comentário do curso de git
 // isso é um teste
 //seu paig eh gay
-=======
 
 // Comentário do curso Git.
 
