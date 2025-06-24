@@ -5,7 +5,11 @@ import { AuthSchema } from "./schemas/AuthSchema";
 import { EnsureAuth } from "@middlewares/ensureAuth";
 
 const router = Router();
-
+// bcvdtcfcycsyfcyfscyfsycyfscfcfysfcd
+// dcvdycyvcydvcydbcd
+/*vcvucvuyeu ce
+coieuciuic
+ebciebciue */
 /**
  * Route for creating a new User
  * POST http(s)://{host}/api/auth
