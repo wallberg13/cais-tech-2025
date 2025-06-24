@@ -13,7 +13,7 @@ class UserController {
 
     res.json(result);
   }
-
+Caistech 2025
   async index(req: Request, res: Response) {
     const { id } = req.userPermission;
 
