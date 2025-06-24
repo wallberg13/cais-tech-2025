@@ -4,7 +4,13 @@ import { UserRepository } from "@db/repositories/UserRepository";
 import { CreateAuthService } from "../services/CreateAuthService";
 import { GetAuthUserService } from "../services/GetAuthUserService";
 
+// Nova Comentário ddddddd
+
+<<<<<<< HEAD
+// comentário curso github
+=======
 // Comentário do curso Git.
+>>>>>>> 6ebd022f33c34021532187b64bd4463e27468e56
 
 class UserController {
   async create(req: Request, res: Response) {
