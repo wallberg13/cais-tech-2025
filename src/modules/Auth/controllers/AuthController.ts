@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 import { UserRepository } from "@db/repositories/UserRepository";
 import { CreateAuthService } from "../services/CreateAuthService";
 import { GetAuthUserService } from "../services/GetAuthUserService";
-
+// Loucuras de Amor
 class UserController {
   async create(req: Request, res: Response) {
     const service = new CreateAuthService(new UserRepository());
