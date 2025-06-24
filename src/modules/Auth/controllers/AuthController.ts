@@ -1,8 +1,11 @@
 import { Request, Response } from "express";
 
+// ZacksB.M - 2K25
+
 import { UserRepository } from "@db/repositories/UserRepository";
 import { CreateAuthService } from "../services/CreateAuthService";
 import { GetAuthUserService } from "../services/GetAuthUserService";
+import { isac } from "../bm";
 
 class UserController {
   async create(req: Request, res: Response) {
@@ -19,6 +22,7 @@ class UserController {
 
     const service = new GetAuthUserService(new UserRepository());
     const result = await service.execute(id);
+    const nome = isac;
 
     res.json(result);
   }
