@@ -6,7 +6,7 @@ export const CREATE_CLIENT_NOT_CONNETED_CLIENT: string =
 
 // General errors
 export const ERROR_TO_CLIENT: string = "error_database - teste 02";
-export const UNKNOWN_ERROR: string = "error_unknown";
+export const UNKNOWN_ERROR: string = "error_unknown_desconhecido";
 
 const messages: { [key: string | number]: { [key: string | number]: string } } =
   {
